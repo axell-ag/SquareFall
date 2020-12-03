@@ -11,11 +11,13 @@ GameObject:
   - component: {fileID: 1417973078435129992}
   - component: {fileID: 1668744153503477929}
   - component: {fileID: 5801459189476156803}
-  - component: {fileID: 4543360459691270092}
   - component: {fileID: 6411658853260953071}
+  - component: {fileID: 579687397591887399}
+  - component: {fileID: 8596049408291377679}
+  - component: {fileID: 2494275663256474620}
   m_Layer: 0
   m_Name: QuadFriend
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,18 +107,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4543360459691270092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7561206447915897704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93e865f6f0780d943910007e83f1e6a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6411658853260953071
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -143,3 +133,46 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.18, y: 1.18}
   m_EdgeRadius: 0
+--- !u!114 &579687397591887399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7561206447915897704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e865f6f0780d943910007e83f1e6a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &8596049408291377679
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7561206447915897704}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2494275663256474620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7561206447915897704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e865f6f0780d943910007e83f1e6a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
